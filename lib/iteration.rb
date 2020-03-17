@@ -8,7 +8,15 @@ def join_ingredients(src)
  array 
 end 
 
-
+def find_greater_pair(src)
+  array = []
+  i = 0 
+  while i < src.length 
+  array.push(src[i].max)
+  i += 1 
+end 
+  array 
+end 
   
 
 def total_even_pairs(src)
